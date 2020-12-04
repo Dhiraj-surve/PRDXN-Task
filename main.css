@@ -1,0 +1,337 @@
+/* Reet CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reet */
+
+
+/* Mycss  */
+:root{
+    --border: black;
+  }
+
+ /* main container */
+  .main-container{
+    margin:0px 100px;
+    background-color:#FBFDFD;
+  }
+
+/* header editor */
+  .navbar {
+    height: 90px;
+    display: flex;
+}
+  
+.logo {
+    float: left;
+    color: skyblue;
+    width: 20%;
+    height: 100%;
+    font-size: 60px;
+	font-family:calibri, Arial, sans-serif;
+}
+.logo-text{
+	    margin-top: 20px;
+    margin-left: 50px;
+	font-size: 40px;
+}
+ .option {
+    width: 80%;
+    float: right;
+    height: 100%;
+    display: inline-block;
+    font-size: 30px;
+    flex-direction: row-reverse;
+}
+ul {
+      list-style-type: none;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+      display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    font-family: calibri, Arial, sans-serif;
+    font-size: 15px;
+	padding-right: 20px;
+    padding-left: 20px;
+}
+
+li a:hover {
+  background-color: rgb(86, 171, 204);
+}
+
+.active {
+  background-color: rgb(127, 213, 228);
+  color:white;
+}
+
+/* image slider work remaining */
+.mySlides{
+  width: 100%;
+  height: 100%;
+  margin:0px;
+  background-size: cover;
+  display:none;
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer;
+    width: 3%;
+    text-align: center;
+    color: skyblue;
+    display: inline-block;
+    font-size: 20px;
+}
+.float-right{
+  float: right;
+}
+
+/* main content editor */
+.f-para {
+    font-family: calibri, Arial, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: skyblue;
+}
+.para1{
+	margin-top:60px;
+	margin-bottom:20px;
+}
+
+.s-para{
+	font-family:Arial Narrow,Times, Times New Roman, serif, sans-serif;
+	text-align:center;
+	font-size:15px;
+	color:skyblue;
+}
+.para2{
+	margin-top:20px;
+}
+
+.t-para{
+	font-family: calibri, Arial, sans-serif;
+    font-size: 35px;
+    color: skyblue;
+	border-bottom-color: silver;
+}
+.para3{
+	padding-top: 80px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.box-containers{
+	
+}
+
+.flex-container {
+  
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #F8F8F8;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  text-align: center;
+  flex:25%;
+}
+.box-heading{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: calibri, Arial, sans-serif;
+  color: skyblue;
+}
+.box-icon{
+  font-size: 40px;
+  color: rgb(130, 199, 226);
+  margin-bottom: 40px;
+}
+.box > p{
+margin-right: 55px;
+margin-left: 55px;
+margin-bottom: 50px;
+padding-right: 20px;
+padding-left: 20px;
+text-align: center;
+}
+.link-learn-more{
+  color: rgb(130, 199, 226);
+  font-size:15px ;
+}
+.fa-long-arrow-right{
+  font-size: 15px;
+}
+/* blue base to box work remaining */
+.bluebase{
+  height:5%;
+  width: 100%;
+  background-color: skyblue;
+  margin-top: 70px;
+  position: relative;
+    top: 11px;
+}
+
+.four-para{
+	font-family: calibri, Arial, sans-serif;
+    font-size: 35px;
+    color: skyblue;
+	border-bottom-color: silver;
+}
+.para4{
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.box-about{
+  background-color: #F8F8F8;
+  width: 48%;
+  height: 270px;
+  margin: 10px;
+  text-align: center;
+  flex: 25%;
+}
+.box-heading-about{
+  font-size: 20px;
+  font-family: calibri, Arial, sans-serif;
+  color: skyblue;
+  margin-top: 0px;
+}
+.box-about>p{
+  margin-bottom: 15px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.about-us-img{
+  width: 100%;
+  height: 100%;
+}
+
+/* last secton */
+.five-para{
+	font-family: calibri, Arial, sans-serif;
+    font-size: 35px;
+    color: skyblue;
+border-bottom-color: silver;
+}
+
+.para5{
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.box-team {
+  background-color: #F8F8F8;
+  width: 400px;
+  height: 650px;
+  margin: 10px;
+  text-align: center;
+  flex: 25%;
+}
+.img{
+  width: 100%;
+  height: 30%;
+}
+.John-Doe,.Alexandra,.Kelly-Hidayah{
+  height: 100%;
+  width: 60%;
+}
+/* bluebase work remaining */
+.bluebase-t{
+  height:5%;
+  width: 100%;
+  background-color: skyblue;
+  margin-top: 70px;
+  position: relative;
+  top: 35px;
+}
+/* footer part editor */
+.footer-icon{
+  margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.footer-bar li{
+  list-style: none;
+  float: right;
+  color: skyblue;
+}
+.copyright{
+float: left;
+padding-top: 10px;
+}
+.footer-link{
+  list-style: none;
+  float: right;
+  color: skyblue;
+}
+.footer-bar i{
+  color:skyblue;
+  font-size: 15px;
+}
