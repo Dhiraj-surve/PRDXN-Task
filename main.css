@@ -130,12 +130,14 @@ li a:hover {
   display:none;
 }
 .w3-left, .w3-right, .w3-badge {
-  cursor: pointer;
+    cursor: pointer;
     width: 3%;
     text-align: center;
     color: skyblue;
     display: inline-block;
-    font-size: 20px;
+    font-size: 50px;
+    position: relative;
+    bottom: 300px;
 }
 .float-right{
   float: right;
