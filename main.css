@@ -196,6 +196,7 @@ li a:hover {
   margin: 10px;
   text-align: center;
   flex:25%;
+  position:relative;
 }
 .box-heading{
   margin-top: 60px;
@@ -229,9 +230,8 @@ text-align: center;
   height:5%;
   width: 100%;
   background-color: skyblue;
-  margin-top: 70px;
-  position: relative;
-    top: 11px;
+  position: absolute;
+  bottom:0px;
 }
 
 .four-para{
@@ -303,15 +303,7 @@ border-bottom-color: silver;
   height: 100%;
   width: 60%;
 }
-/* bluebase work remaining */
-.bluebase-t{
-  height:5%;
-  width: 100%;
-  background-color: skyblue;
-  margin-top: 70px;
-  position: relative;
-  top: 35px;
-}
+
 /* footer part editor */
 .footer-icon{
   margin-left: 20px;
